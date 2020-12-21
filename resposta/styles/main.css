@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5em;
+}
+
+.error::placeholder {
+    color: red;
+}
+
+main {
+    margin:0 20% 0;
+    padding:20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+    border: 1px solid black;
+    margin:5px;
+    padding: .75em;
+    height: 130px;
+}
+
+li span {
+    display: block;
+    font-size: 2em;
+}
+
+li label {
+    display: block;
+    margin-top: 5px;
+}
